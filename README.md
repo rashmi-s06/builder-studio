@@ -1,16 +1,69 @@
 # Builder Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based visual builder that allows users to create and customize profile graphics, builder IDs, banners, and team visuals.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Builder Studio is a web application designed to make creating personalized digital graphics simple and accessible through an interactive interface.
 
-## React Compiler
+Users can customize visual elements and generate downloadable graphics directly from the browser.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Interactive profile and graphic customization.
+- Custom builder ID creation.
+- Banner and team graphic generation.
+- Responsive user interface.
+- Image export and download functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- html-to-image
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/rashmi-s06/builder-studio.git
+
+2. Navigate to the project directory:
+
+   cd builder-studio
+
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the local URL displayed in your terminal.
+
+## Project Structure
+
+- `src/` - Application source code
+- `public/` - Static assets
+- `index.html` - Application entry point
+
+## Future Improvements
+
+- Additional customization options.
+- More export formats.
+- Enhanced mobile experience.
+
+---
+
+Developed by [Rashmi Singh](https://github.com/rashmi-s06).
